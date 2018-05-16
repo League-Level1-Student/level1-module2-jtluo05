@@ -30,7 +30,7 @@ class Microwave {
 	void startMicrowave() {
 		if (thingToBeCooked == null)
 			System.out.println("Microwave says: there's nothing in the microwave!");
-		for (int i = 0; i < cookTime*10 + 1; i++) {
+		for (int i = 0; i < cookTime + 1; i++) {
 			thingToBeCooked.applyHeat();
 		}
 	}
@@ -46,7 +46,14 @@ public class Popcorn {
 		System.out.println("Popcorn says: making package of " + this.flavor + " popcorn.");
 	}
 
+public static void main(String[] args) {
+Popcorn pc=new Popcorn("butter");
+Microwave m=new Microwave();
+m.putInMicrowave(pc);
+m.setTime(30);
+m.startMicrowave();
 
+}
 	public void applyHeat() {
 		pause();
 
