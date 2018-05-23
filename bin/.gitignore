@@ -1,4 +1,5 @@
 /Cup.class
+/HuantedHouse.class
 /Kettle$Water.class
 /Kettle.class
 /Microwave.class
@@ -10,5 +11,8 @@
 /TeaBag.class
 /TeaMaker.class
 /extra/
-/HuantedHouse.class
-/HauntedHouse.class
+/Minion.class
+/TeaParty.class
+/TeaParty$TeaPartyTest.class
+/Welcome.class
+/TeaPartyTest.class
