@@ -1,10 +1,12 @@
 /Cup.class
 /HuantedHouse.class
+/JamesBond.class
 /Kettle$Water.class
 /Kettle.class
 /Microwave.class
 /Minion.class
 /MinionTest.class
+/Noodle.class
 /Platypus.class
 /PlatypusRunner.class
 /Popcorn.class
@@ -13,9 +15,6 @@
 /TeaMaker.class
 /TeaParty.class
 /TeaPartyTest.class
-/Welcome.class
-/extra/
 /Vault.class
-/Noodle.class
 /VaultRunner.class
-/JamesBond.class
+/extra/

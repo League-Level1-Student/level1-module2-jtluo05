@@ -1,16 +1,16 @@
 
 
 public class Vault {
-private int secretcode=0;
+private int secretCode=0;
 
 boolean tryCode(int guess) {
-	return (guess==secretcode);
+	return (guess==secretCode);
 }
-int getsecretcode() {
-		return secretcode;
+int getSecretCode() {
+		return secretCode;
 	}
 
 	void setsecretcode(int secretcode) {
-		this.secretcode = secretcode;
+		this.secretCode = secretcode;
 	}
 }
